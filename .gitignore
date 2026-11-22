@@ -1,0 +1,30 @@
+
+# Java compiled files
+*.class
+bin/
+target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# Test reports and execution output
+test-output/
+allure-results/
+allure-report/
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive configuration
+.env
+config.properties
