@@ -660,15 +660,6 @@ driver.navigate().to(url);
 ---
 
 ```java
-
-import java.time.Duration;
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 public class CheckBox {
 
     public static void main(String[] args) throws InterruptedException {   // required because of Thread.sleep()
@@ -856,9 +847,6 @@ https://username:password@website-url
 The browser sends the credentials automatically, so the popup does not appear.
 
 ```java
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 WebDriver driver = new ChromeDriver();
 
 driver.manage().window().maximize();
